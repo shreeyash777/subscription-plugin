@@ -1,0 +1,19 @@
+[2025-10-24 11:13:05] [INFO] Processing subscription payment for user 35, plan 1, amount 0, expiry 1 months
+[2025-10-24 11:16:28] [INFO] Processing subscription payment for user 35, plan 1, amount 0, expiry 1 months
+[2025-10-24 11:19:05] [INFO] Processing subscription payment for user 35, plan 1, amount 0, expiry 1 months
+[2025-10-24 11:19:05] [INFO] is_trial initially: false
+[2025-10-24 11:19:05] [INFO] Loaded plan row: {"id":"1","name":"Trial Plan","slug":"free-plan","description":"","amount":"0.00","expiry_in_months":"1","is_trial":"0","sequence":"1","status":"active","created_at":"2025-10-24 15:59:34","updated_at":"2025-10-24 15:59:44"}
+[2025-10-24 11:20:35] [INFO] Processing subscription payment for user 35, plan 1, amount 0, expiry 1 months
+[2025-10-24 11:20:35] [INFO] is_trial initially: false
+[2025-10-24 11:20:35] [INFO] Loaded plan row: {"id":"1","name":"Trial Plan","slug":"free-plan","description":"","amount":"0.00","expiry_in_months":"1","is_trial":"1","sequence":"1","status":"active","created_at":"2025-10-24 15:59:34","updated_at":"2025-10-24 16:50:22"}
+[2025-10-24 11:20:35] [INFO] User 35 has used trial count: 0 for plan 1
+[2025-10-24 11:20:35] [INFO] Processing trial subscription for user 35, plan 1
+[2025-10-24 11:20:35] [INFO] gst data for trial: {"is_gst_applied":0,"gst_percentage":null,"gst_amount":null,"base_amount":0,"amount_paid":0}
+[2025-10-24 11:20:35] [INFO] Storing subscription for user 35, plan 1, amount 0, expiry 1 months
+[2025-10-24 11:20:35] [INFO] Subscription stored result: success
+[2025-10-24 11:20:37] [INFO] Subscription success email sent to user 35 for subscription 1
+[2025-10-24 11:48:30] [INFO] Payment captured via webhook: pay_RXIbxuckQXnK1f
+[2025-10-24 11:48:41] [INFO] Subscription success email sent to user 35 for subscription 2
+[2025-10-24 13:01:09] [INFO] WordPress Cron: Marked 0 subscriptions as expired
+[2025-10-24 13:01:12] [INFO] Renewal reminder sent to user  for subscription 
+[2025-10-24 13:01:12] [INFO] WordPress Cron: Sent 1 renewal reminder emails
